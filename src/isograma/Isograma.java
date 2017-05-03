@@ -30,11 +30,9 @@ public class Isograma {
                 //si la letra del primer for es distinta a las letras que se escanean
                 //en el segundo for no pasa nada, sigue escaneando, sino +1 a la 
                 //variable isograma(int)
-                if (palabra.charAt(i) != palabra.charAt(j)) {
-                    
-                } else {
+                if (palabra.charAt(i) == palabra.charAt(j)) {
                     isograma++;
-                }
+                } 
             }
         }
         //si isograma es igual a 0 (que no se repiten letras) imprime que es un isograma
